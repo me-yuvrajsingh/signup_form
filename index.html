@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="l-form">
+        <form action="" class="form" id="form">
+            <h1 class="form-title">Create Your Account</h1>
+
+            <div class="form-div">
+                <input type="text" class="form-input" placeholder=" ">
+                <label for="" class="form-label">Name</label>
+            </div>
+
+            <div class="form-div">
+                <input type="email" class="form-input" placeholder=" " required>
+                <label for="" class="form-label">Email*</label>
+            </div>
+
+            <div class="form-div">
+                <input type="date" class="form-input" placeholder=" ">
+                <label for="" class="form-label">Date Of Birth</label>
+            </div>
+
+            <div class="form-div">
+                <input type="password" class="form-input password" placeholder=" " required minlength="8" maxlength="20">
+                <label for="" class="form-label">Password*</label>
+            </div>
+
+            <div class="form-div">
+                <input type="password" class="form-input confirm-password" placeholder=" " required>
+                <label for="" class="form-label">Confirm Password*</label>
+            </div>
+
+            <input type="submit" class="form-button" value="Sign In">
+        </form>
+    </div>
+
+    <div class="errors">
+        <div class="error-cont">
+        <div class="error1">Password and confirm password should be same <i class="fa fa-times"></i></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
